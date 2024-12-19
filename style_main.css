@@ -457,7 +457,148 @@ height: 100px;
     line-height: 52px;
     text-align: center;
     font-family: "IBM Plex Sans";
+}
+
+/* Contact Form Area */
+
+.first_input{
+    display: flex;
+    width: 700px;
+    height: 44px;
+  
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.first_input_one{
+    width: 342px;
+    height: 44px;
     
     
+}
+
+.first_input_two{
+    width: 342px;
+    height: 44px;
+    
+    
+}
+
+.nameone{
+    width: 318px;
+    height: 20px;
+    border-radius: 22px;
+    padding: 12px;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    border: 2px solid grey;
+    background-color: #000000;
+    
+}
+.email{
+    width: 700px;
+    height: 44px;
+    
+}
+
+#emailone{
+    width: 676px;
+    height: 20px;
+    border-radius: 22px;
+    padding: 12px;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    border: 2px solid grey;
+    background-color: #000000;
+}
+.placeholder{
+    width: 700px;
+    height: 124px;
+
+
+}
+#placeholder{
+    width: 676px;
+    height: 98px;
+    border-radius: 22px;
+    padding: 12px;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    border: 2px solid grey;
+    background-color: #000000;
+}
+
+.submit{
+
+    width: 82px;
+    height: 36px;
+}
+#submit{
+    width: 82px;
+    height: 36px;
+    border-radius: 22px;
+    
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    border: 2px solid grey;
+    background-color: white;
+}
+
+.main_input{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    align-self: center;
+}
+
+.input_textmain{
+    width: 700px;
+    height: 80px;
+    gap: 16px;
+    align-self: center;
+    margin-top: 4%;
+
+}
+
+.input_text_one{
+    width: 700px;
+    height: 40px;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Domine", serif;
+    margin-bottom: 2%;
+}
+
+.input_text_two{
+    width: 700px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.comment_input{
+    width: 1344px;
+    height: 544px;
+    padding-top:48px ;
+    padding-bottom: 48px;
+    gap: 48px;
+    
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    margin-left: 4.25%;
     
 }
