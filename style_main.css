@@ -185,3 +185,52 @@ h1 {
     font-family: "IBM Plex Sans";
 
 }
+
+/* Project Detail Section */
+
+.HighlightContent{
+    width: 100%;
+height: 100px;
+}
+
+.one{
+    width: 648px;
+    height: 84px;
+    float: left;
+    margin: auto;
+    margin-left: 1%;  
+}
+
+.two{
+    width: 648px;
+    height: 84px;
+    float: right;
+    margin: auto; 
+}
+
+.two {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.two div {
+    text-align: left;
+}
+.two strong{
+    font-size: 17px;
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.two p{
+    font-size: 17px;
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    color:#FFFFFF99;
+}
+
+.Highlight_Area{
+    margin-top: 14%;
+}
