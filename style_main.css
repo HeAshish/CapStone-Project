@@ -1,52 +1,32 @@
-/* Body Style */
-
-body {
+/* Main Font */
+h1 {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: #000000;
-    color: #ffffff;
-    line-height: 1.5;
-}
-
-/* Header & Navigation (Included) */
-
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 4rem;
-    background-color: #000000;
-    
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.logo {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.75rem;
+    font-size: clamp(2.5rem, 5vw, 7rem); 
     font-weight: 400;
     color: #ffffff;
+    line-height: 1.2;
     letter-spacing: -0.5px;
 }
 
-
-nav {
+#large_font {
+    margin-top: 25vh;
     display: flex;
-    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    padding: 0 2rem;
 }
 
-nav a {
-    color: #ffffff;
-    font-size: 1.125rem;
-    font-weight: 400;
-    text-decoration: none;
-    transition: opacity 0.3s ease;
-
+/* Main Image */
+.landing {
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 95%;
+    max-width: 100%; 
 }
-
-nav a:hover {
-    opacity: 0.8;
+#landing_img{
+    margin-bottom: 8rem;
 }
