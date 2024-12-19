@@ -156,3 +156,32 @@ h1 {
         font-size: 0.875rem;
     }
 }
+
+/* Portfolio Text Paragraph Section */
+
+
+.Text{
+
+    height: 100%;
+    width: 100%;
+}
+
+.TextFirst{
+    width: 648px;
+    height: 160px;
+    float: left;
+    margin: auto;
+}
+
+.TextSecond{
+    width: 648px;
+    height: 160px;
+    float: right;
+   
+    margin: auto;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "IBM Plex Sans";
+
+}
